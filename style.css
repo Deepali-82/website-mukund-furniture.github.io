@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+.bgimg
+{
+    background-image: url("our-store/images/img3.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:660px;
+}
+ 
+
+.hearderset{
+    margin-top: 57px;
+    padding-top: 60px;
+    background: rgba(0,0,0, .6);
+    box-shadow: 0 0 10px 3px grey;
+    border:1px;
+    border-radius: 50px;
+}
+.hearderset h1{
+    text-shadow: 2px 2px red;
+    font-family: 'Calistoga', cursive;
+}
+.hearderset h2{
+    font-size: 32px;
+    
+
+}
+
+/*...............product............*/
+.ourservices{
+    padding: 50px 0px 30px;
+    height: 600px;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin:80px 0px !important;
+}
+.imgsetting{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+.fa-shopping-cart{
+    margin-top: 20px;
+}
+.fa-desktop{
+    margin-top: 26px;
+}
+.fa-lock{
+    margin-top: 25px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    padding: 10px;
+    color:#6c757d;
+}
+.product-img{
+    height:100px;
+    width:150px;
+}
+/*...............Gallary............*/
+.portfolio{
+    height:1100px;
+    width: 100%;
+    padding: 50px 0px 100px;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+.bed{
+    height:320px;
+    width:80%;
+}
+/*.............Contact us ...........*/
+.ourteam{
+    height:400px;
+    padding:100px 0px 60px;
+    width:100%;
+    background: whitesmoke;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.teamsetting{
+    margin-top: 70px;
+}
+
+/*............. footer ..........*/
+.footer{
+    height: 50px;
+    background: lightgrey;
+}
+
+.footer h6{
+    line-height: 50px;
+}
+
+/*............. Responsive........*/
+@media(min-width:992px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+    .hearderset h2{
+        font-size: 42px;
+    }
+    .hearderset h1{
+        font-size: 62px;
+        font-weight: bold;
+    } 
+}
+@media(min-width:575px) and (max-width:767px){
+    
+}
+@media(min-width:480px) and (max-width:574px){
+
+}
+@media(max-width:479px){
+    .bgimg{
+        background-image: linear-gradient(180deg,red,yellow);
+      height: 400px;
+        
+    }
+    .hearderset h2{
+        font-size: 22px;
+    }
+    .hearderset h1{
+        
+        font-size: 42px;
+        font-weight: bold;
+        
+    } 
+    .ourservices{
+        height:1400px;
+    }
+    .portfolio{
+        height:2600px;
+    }
+    .ourteam{
+        
+        height:700px;
+    }
+    .bed{
+        height: 200px;
+        width: 250px;
+    }
+    
+}
+
+
+
